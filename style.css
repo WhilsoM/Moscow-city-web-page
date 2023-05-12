@@ -1,0 +1,55 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 auto;
+  margin: auto;
+}
+.bg-gray {
+  background-color: gray;
+  border: 3px solid black;
+}
+
+.bg-gray.town-img {
+  background-color: gray;
+  border: 3px solid black;
+  margin-top: 1em;
+  height: 550px;
+}
+
+.center {
+  text-align: center;
+  padding: 0.5em;
+}
+.border-line {
+  border-bottom: 3px solid black;
+  margin: auto;
+  margin-bottom: 2em;
+  width: 50%;
+}
+
+.info-town h2 {
+  text-align: center;
+  /* width: auto; */
+}
+
+.town-img img {
+  box-shadow: 2px 2px 16px rgb(0 0 0 / 32%);
+  width: 60%;
+  border: 1px solid gray;
+  display: block;
+  margin: auto;
+}
+
+.town-img h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+li {
+  font-size: 1em;
+}
